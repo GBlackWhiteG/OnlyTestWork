@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    align-self: center;
+    padding: 5px;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+form, .wrapper__form-items {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 6px;
+}
+
+.wrapper__form-items {
+    gap: 2px;
+}
+
+input {
+    padding: 5px;
+}
